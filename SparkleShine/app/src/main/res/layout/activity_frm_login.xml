@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frmLogin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".frmLogin">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="554dp"
+            android:text="Sparkles Shine "
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/purple_500"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="240dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="85dp"
+            android:layout_marginBottom="467dp"
+            android:text="Username:"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="240dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="83dp"
+            android:layout_marginBottom="343dp"
+            android:text="Password:"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="279dp"
+            android:ems="10"
+            android:hint="Enter Your Password please"
+            android:inputType="textPassword"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtUN"
+            android:layout_width="329dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="407dp"
+            android:ems="10"
+            android:hint="Enter your Username please"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="126dp"
+            android:layout_marginBottom="180dp"
+            android:text="LOG IN"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/btnCrtUser"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="34dp"
+            android:layout_marginBottom="73dp"
+            android:text="Create Account"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

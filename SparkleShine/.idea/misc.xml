@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_add_order.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_add_prices.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_admin.xml" value="0.3088768115942029" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_check_order.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_contractor.xml" value="0.3484375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_create_account.xml" value="0.3625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_create_contractor.xml" value="0.3088768115942029" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_create_customer.xml" value="0.3088768115942029" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_create_order.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_customer.xml" value="0.3625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_customer_reviews.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_login.xml" value="0.3572916666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_send_reviewto_contractor.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_send_reviewto_customer.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_frm_view_users.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SparkleShine/app/src/main/res/layout/activity_main.xml" value="0.25961538461538464" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3088768115942029" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

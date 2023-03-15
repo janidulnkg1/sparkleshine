@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frmCheckOrder">
+
+    <ImageView
+        android:id="@+id/imgHouse2"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="155dp"
+        android:layout_marginRight="107dp"
+        android:layout_marginBottom="376dp"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnViewOrders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="103dp"
+        android:text="View Orders" />
+
+    <Button
+        android:id="@+id/btnbacktocontractor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="297dp"
+        android:layout_marginBottom="11dp"
+        android:text="Back" />
+
+    <Spinner
+        android:id="@+id/spOrderID"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="566dp" />
+</RelativeLayout>

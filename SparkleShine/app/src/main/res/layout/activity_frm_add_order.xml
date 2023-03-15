@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frmAddOrder">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".frmCreateOrder">
+
+        <Button
+            android:id="@+id/btnBack2Customerpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="304dp"
+            android:layout_marginRight="304dp"
+            android:layout_marginBottom="8dp"
+            android:text="Go Back" />
+
+        <EditText
+            android:id="@+id/txtCustomerFname"
+            android:layout_width="221dp"
+            android:layout_height="41dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="554dp"
+            android:ems="10"
+            android:hint="First and Last Names only"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="252dp"
+            android:layout_marginBottom="568dp"
+            android:text="Customer Full Name:"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/txtNoofRooms"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="501dp"
+            android:ems="10"
+            android:hint="number only"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtTotalPrice"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="84dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnCalculateTotPrice"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="256dp"
+            android:layout_marginRight="256dp"
+            android:layout_marginBottom="78dp"
+            android:text="Calculate Total Price" />
+
+        <EditText
+            android:id="@+id/txtOrderAddress"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="302dp"
+            android:ems="10"
+            android:hint="house no, street, town, city"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtPno"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="352dp"
+            android:ems="10"
+            android:hint="+(94)412729729 etc"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/spFloorType"
+            android:layout_width="216dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="404dp"
+            android:entries="@array/FloorType"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtNoofBathrooms"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginBottom="444dp"
+            android:ems="10"
+            android:hint="number only"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnViewPrices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="247dp"
+            android:layout_marginRight="247dp"
+            android:layout_marginBottom="175dp"
+            android:text="View Price List" />
+
+        <Button
+            android:id="@+id/btnAddOrderDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginBottom="23dp"
+            android:text="Add Details"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imgHouse"
+            android:layout_width="125dp"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="101dp"
+            android:layout_marginRight="107dp"
+            android:layout_marginBottom="136dp"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="361dp"
+        android:text="Phone Number:"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="310dp"
+        android:text="Order Address:"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="409dp"
+        android:text="Floor Type"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="455dp"
+        android:text="No of Bathrooms:"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="253dp"
+        android:layout_marginBottom="513dp"
+        android:text="No of Rooms:"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnBrowse"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="235dp"
+        android:text="Browse Picture"
+        android:textSize="10sp" />
+
+</RelativeLayout>

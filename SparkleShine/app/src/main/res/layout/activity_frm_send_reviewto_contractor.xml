@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frmSendReviewtoContractor">
+
+    <TextView
+        android:id="@+id/customerName"
+        android:layout_width="139dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="551dp"
+        android:text="Full name:"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/txtCustomerName"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="548dp"
+        android:ems="10"
+        android:hint="Your First and Last Name only"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="144dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="466dp"
+        android:text="Send Review to Contractor"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/txtReviewtoContractor"
+        android:layout_width="233dp"
+        android:layout_height="156dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="367dp"
+        android:ems="10"
+        android:hint="Enter Review here"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnClearReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="302dp"
+        android:layout_marginBottom="269dp"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/btnSendReviewtoContractor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="272dp"
+        android:text="Send Review" />
+
+    <Button
+        android:id="@+id/btnCheckReviewFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="157dp"
+        android:text="Check Review Feedback" />
+
+    <Button
+        android:id="@+id/btnBack2Customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="310dp"
+        android:layout_marginBottom="9dp"
+        android:text="Back" />
+</RelativeLayout>

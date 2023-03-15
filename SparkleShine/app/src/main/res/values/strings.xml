@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SparkleShine</string>
+    <string-array name="Designation">
+        <item>SELECT Designation</item>
+        <item>Contractor</item>
+        <item>Customer</item>
+    </string-array>
+
+    <string-array name="FloorType">
+        <item>SELECT Type</item>
+        <item>Tiled</item>
+        <item>Concrete</item>
+    </string-array>
+</resources>
+
+
+
+

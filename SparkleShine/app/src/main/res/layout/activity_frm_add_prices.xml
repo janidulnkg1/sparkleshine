@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frmAddPrices">
+
+    <EditText
+        android:id="@+id/txtLabourCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="247dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtConcreteFloorCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="307dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtTileFloorCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="366dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="367dp"
+        android:text="Tiled Floor Cost:"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="305dp"
+        android:text="Concrete Floor Cost:"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="179dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="250dp"
+        android:text="Labour Cost:"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spPriceID"
+        android:layout_width="338dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="550dp" />
+
+    <TextView
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="234dp"
+        android:layout_marginBottom="415dp"
+        android:text="Cost per Bathoom:"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="481dp"
+        android:text="Cost per Room:"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtNoOFRooms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="483dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtNoOFBathrooms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="420dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnUpdatePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="61dp"
+        android:text="update"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnAddPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="159dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btnViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="162dp"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/btnClearPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="298dp"
+        android:layout_marginBottom="158dp"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/btnBack2Admin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="19dp"
+        android:text="back" />
+</RelativeLayout>
